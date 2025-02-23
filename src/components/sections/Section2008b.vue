@@ -27,7 +27,7 @@
     </div>
     -->
     <div class="scroll-svg">
-      <img src="../../assets/scroll-down-horizontal.svg" alt="Scroll Icon">
+      <img src="@/assets/scroll-down-horizontal.svg" alt="Scroll Icon">
     </div>
   </div>
 </template>

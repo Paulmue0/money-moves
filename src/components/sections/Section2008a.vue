@@ -54,7 +54,7 @@
       </span>.
     </p>
     <div class="scroll-svg" style="margin-top: -130px;">
-      <img src="../../assets/scroll-down-right.svg" alt="Scroll Icon">
+      <img src="@/assets/scroll-down-right.svg" alt="Scroll Icon">
     </div>
   </div>
 </template>

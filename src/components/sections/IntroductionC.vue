@@ -7,7 +7,7 @@
       Three turning points stand out. What happened? Let's explore the bigger picture.
     </p>
     <div class="scroll-svg">
-      <img src="../../assets/scroll-down.svg" alt="Scroll Icon" class="bounce">
+      <img src="@/assets/scroll-down.svg" alt="Scroll Icon" class="bounce">
     </div>
   </div>
 </template>

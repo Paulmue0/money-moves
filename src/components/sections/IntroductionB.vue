@@ -20,13 +20,13 @@
     </div>
     
     <div class="scroll-svg">
-      <img src="../../assets/scroll-down.svg" alt="Scroll Icon" class="bounce">
+      <img src="@/assets/scroll-down.svg" alt="Scroll Icon" class="bounce">
     </div>
   </div>
 </template>
 
 <script>
-import { useIntroStore } from '../../stores/IntroductionBStore'
+import { useIntroStore } from '@/stores/IntroductionBStore'
 import { onMounted, ref } from 'vue'
 
 export default {

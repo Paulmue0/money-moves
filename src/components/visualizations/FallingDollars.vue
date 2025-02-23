@@ -6,7 +6,7 @@
         class="falling-dollar"
         :style="getDollarStyle(index)"
       >
-        <img src="../../assets/dollar.svg" alt="Dollar Icon" />
+        <img src="@/assets/dollar.svg" alt="Dollar Icon" />
       </div>
     </div>
   </template>

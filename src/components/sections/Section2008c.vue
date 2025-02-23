@@ -62,7 +62,7 @@
       <p>Select a country on the globe to view its specific impact during the 2008 financial crisis.</p>
     </div>
     <div class="scroll-svg">
-      <img src="../../assets/scroll-down-left.svg" alt="Scroll Icon">
+      <img src="@/assets/scroll-down-left.svg" alt="Scroll Icon">
     </div>
   </div>
 </template>

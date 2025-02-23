@@ -12,7 +12,7 @@
         Russia plunged into an economic downturn.
     </p>
       <div class="scroll-svg">
-      <img src="../../assets/scroll-down-left.svg" alt="Scroll Icon">
+      <img src="@/assets/scroll-down-left.svg" alt="Scroll Icon">
     </div>
     </div>
   </template>

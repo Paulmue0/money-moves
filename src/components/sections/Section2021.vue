@@ -21,11 +21,9 @@
         to illustrate the general scope of government aid measures.
       </p>
     </div> 
-    <!--
     <div class="scroll-svg">
-      <img src="../../assets/scroll-down.svg" alt="Scroll Icon">
+      <img src="@/assets/scroll-down.svg" alt="Scroll Icon">
     </div>
-    -->
   </div>
 </template>
 
