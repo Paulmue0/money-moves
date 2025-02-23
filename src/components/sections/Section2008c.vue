@@ -69,8 +69,8 @@
 
 <script>
 import { ref, onMounted, watch } from 'vue';
-import { useCountryStore } from '../../stores/countryStore';
-import { useEconomicDataStore } from '../../stores/economicDataStore';
+import { useCountryStore } from '@/stores/countryStore';
+import { useEconomicDataStore } from '@/stores/economicDataStore';
 import { storeToRefs } from 'pinia';
 
 export default {

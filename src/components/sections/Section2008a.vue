@@ -53,8 +53,7 @@
         {{ formatNumber(countryData?.unemployment2008) }}%
       </span>.
     </p>
-
-    <div class="scroll-svg">
+    <div class="scroll-svg" style="margin-top: -130px;">
       <img src="../../assets/scroll-down-right.svg" alt="Scroll Icon">
     </div>
   </div>
@@ -62,8 +61,8 @@
 
 <script>
 import { ref, onMounted, watch } from 'vue';
-import { useCountryStore } from '../../stores/countryStore';
-import { useEconomicDataStore } from '../../stores/economicDataStore';
+import { useCountryStore } from '@/stores/countryStore';
+import { useEconomicDataStore } from '@/stores/economicDataStore';
 import { storeToRefs } from 'pinia';
 
 export default {

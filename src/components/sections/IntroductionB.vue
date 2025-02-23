@@ -239,7 +239,7 @@ p {
 }
 
 .scroll-svg {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .scroll-svg img {

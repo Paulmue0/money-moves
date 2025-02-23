@@ -1,10 +1,16 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
   base: '/money-moves/',
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    }
+  },
   transformIndexHtml: {
     enforce: 'pre',
     transform(html) {
@@ -12,9 +18,9 @@ export default defineConfig({
         '</head>',
         `<style>
           html {
-            zoom: 65%;
-            -ms-zoom: 65%;
-            -webkit-zoom: 65%;
+            zoom: 60%;
+            -ms-zoom: 60%;
+            -webkit-zoom: 60%;
           }
         </style>
         </head>`

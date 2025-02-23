@@ -71,7 +71,7 @@ import Section2024a from "./sections/Section2024a.vue";
 import Section2008c from "./sections/Section2008c.vue";
 import Section2021 from "./sections/Section2021.vue";
 
-import { useIntroStore } from '../stores/introductionBStore'
+import { useIntroStore } from '@/stores/introductionBStore'
 import { storeToRefs } from 'pinia'
 
 var selectedYear = "-1";

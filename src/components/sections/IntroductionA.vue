@@ -6,7 +6,7 @@
       Follow along as we uncover the trends and shocks that shaped GDP worldwide.
     </p>
     <div class="scroll-svg">
-      <img src="../../assets/scroll-down.svg" alt="Scroll Icon" class="bounce">
+      <img src="@/assets/scroll-down.svg" alt="Scroll Icon" class="bounce">
     </div>
   </div>
 </template>

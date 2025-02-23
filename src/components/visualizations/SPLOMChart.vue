@@ -12,7 +12,7 @@
 
 <script>
 import * as d3 from "d3";
-import { useChapter2DataStore } from "../../stores/chapter2Store";
+import { useChapter2DataStore } from "@/stores/chapter2Store";
 
 export default {
   name: "SPLOMChart",

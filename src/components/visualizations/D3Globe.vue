@@ -37,7 +37,7 @@
   <script>
   import * as d3 from "d3";
   import * as topojson from "topojson-client";
-  import { useCountryStore } from '../../stores/countryStore';
+  import { useCountryStore } from '@/stores/countryStore';
   import { storeToRefs } from 'pinia';
   
   export default {
