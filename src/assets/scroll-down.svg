@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 200 100"
+        width="100"
+        height="50"
+      >
+        <text
+          x="50%"
+          y="30"
+          dominant-baseline="middle"
+          text-anchor="middle"
+          font-family="Arial, sans-serif"
+          font-size="20"
+          fill="currentColor"
+        >
+          Scroll
+        </text>
+        <!-- Arrows -->
+        <path
+          d="M70 50 L100 80 L130 50"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="3"
+        />
+        <path
+          d="M70 70 L100 100 L130 70"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="3"
+        />
+</svg>
