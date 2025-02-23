@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import { useIntroStore } from '@/stores/IntroductionBStore'
+import { useIntroStore } from '@/stores/introductionBStore'
 import { onMounted, ref } from 'vue'
 
 export default {
