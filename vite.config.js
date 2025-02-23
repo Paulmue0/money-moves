@@ -17,10 +17,15 @@ export default defineConfig({
       return html.replace(
         '</head>',
         `<style>
-          html {
-            zoom: 60%;
-            -ms-zoom: 60%;
-            -webkit-zoom: 60%;
+          body {
+            transform: scale(0.6);
+            transform-origin: top left;
+            width: 166.67%; /* 100/0.6 to compensate for scale */
+            height: 166.67%;
+            position: absolute;
+          }
+          html, body {
+            overflow-x: hidden;
           }
         </style>
         </head>`
